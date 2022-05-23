@@ -1,0 +1,124 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+ background-image: url("glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: gold;
+}
+.heading
+{
+    background-color: chocolate;
+    width: 100%;
+    height: fit-content;
+    color: gold;
+    font-family: "Rockwell Extra Bold", serif;
+    font-size: xxx-large;
+    text-align: center;
+    padding-left: 0%;
+    overflow: hidden;
+    border-color: hotpink;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.login-box{
+    width: 25%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: deeppink;
+    backdrop-filter: blur(100px);
+    background-color: transparent;
+    border-radius: 2%;
+    padding:2%;
+    top:50%;
+    overflow: hidden;
+}
+.login-box h1{
+    float: left;
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+
+}
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: whitesmoke;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.btn {
+    width: 100%;
+    background: transparent;
+    border: 2px solid #4caf50;
+    color: deeppink;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+.but{
+    width: 100%;
+    background: transparent;
+    border: 2px solid #4caf50;
+    color: deeppink;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+::placeholder
+{
+    color: black;
+}
+a:hover
+{
+    color: green;
+}
+.hom
+{
+    margin-right: 5%;
+}
+.hom a
+{
+    text-decoration: none;
+
+    color: chartreuse;
+}
+.hom:hover
+{
+    transform: scale(1.5);
+}
+
+@media(max-width: 680px)
+{
+    .body
+    {
+        height: fit-content;
+    }
+    .heading
+    {
+        font-size: xx-large;
+    }
+    .login-box
+    {
+        width: fit-content;
+    }
+}

@@ -1,0 +1,75 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+    background-image: url("glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: gold;
+}
+.heading
+{
+    background-color: chocolate;
+    width: 100%;
+    height: fit-content;
+    color: gold;
+    font-family: "Rockwell Extra Bold", serif;
+    font-size: xxx-large;
+    text-align: center;
+    overflow: hidden;
+    border-color: hotpink;
+    border-radius: 5px;
+}
+.welcome
+{
+    width:fit-content;
+    position: fixed;
+    margin-top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: firebrick;
+    backdrop-filter: blur(100px);
+    background-color: transparent;
+    border-radius: 2%;
+    padding:2%;
+    font-size: xx-large;
+}
+.but{
+    width: 50%;
+    background: yellow;
+    border: 2px solid #4caf50;
+    color: deeppink;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 6% 0 0 20%;
+}
+.EXAM
+{
+    width:15%;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: gold;
+    backdrop-filter: blur(100px);
+    background-color: transparent;
+    border-radius: 20px;
+    padding:2%;
+    margin-top:2%;
+    text-align: center;
+}
+
+@media(max-width: 680px)
+{
+    .body
+    {
+        height: fit-content;
+    }
+    .heading
+    {
+        font-size: xx-large;
+    }
+    .welcome
+    {
+        width: fit-content;
+    }
+}
